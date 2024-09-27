@@ -35,7 +35,7 @@ html, body {
         no-repeat,
         no-repeat;
     background-size: 
-        100% auto,
+        100% 50%,
         cover;
 }
 
@@ -163,7 +163,7 @@ html, body {
 }
 
 /* 响应式设计 */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .header-nav {
         padding: 5px;
         justify-content: flex-start; /* 在小屏幕上左对齐 */

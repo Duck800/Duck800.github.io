@@ -57,8 +57,10 @@ const downloadBtn = document.querySelector('.download');
 downloadBtn.addEventListener('click', () => {
   // 创建一个临时链接
   const tempLink = document.createElement('a');
-  tempLink.href = './Hanya CV.pdf'; // 替换为您的简历文件路径
-  tempLink.download = 'Hanya-CV(CN&EN).pdf'; // 设置下载文件名称
+  // tempLink.href = './Hanya CV.pdf'; // 替换为您的简历文件路径
+  // tempLink.download = 'Hanya-CV(CN&EN).pdf'; // 设置下载文件名称
+  tempLink.href = './public/img/CV-replace.png'; 
+  tempLink.download = 'Hi Here.png';
   tempLink.setAttribute('target', '_blank'); // 在新标签页打开
 
   // 点击触发下载

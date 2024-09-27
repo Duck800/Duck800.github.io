@@ -294,7 +294,7 @@
     font-size: 0.8rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .bento-container {
         flex-direction: column;
         height: auto;
