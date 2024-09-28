@@ -7,8 +7,8 @@
 
 .home-content {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    /* justify-content: flex-end;
+    align-items: flex-start; */
     width: 100%;
     max-width: 1400px;
 }
@@ -27,12 +27,26 @@
     object-fit: contain;
 } */
 
+.img-container {
+    width: 40rem;
+    height: 90vh;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.img-container img {
+    width: auto;
+    height: 400px;
+}
+
 .text-container {
     flex: 1;
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center; /* 使内容在竖直方向上居中 */
     text-align: left;
 }
 
