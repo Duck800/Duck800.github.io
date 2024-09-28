@@ -32,7 +32,7 @@
     height: 90vh;
     flex: 1;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
@@ -66,7 +66,7 @@
     margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .page#home {
         align-items: center;
         /* 居中对齐整个内容 */
@@ -74,6 +74,17 @@
 
     .home-content {
         justify-content: center;
+        flex-direction: column; /* 使内容变成一列 */
+    }
+
+    .img-container {
+        height: 50vh;
+        width: auto;
+    }
+    
+    .img-container img {
+        width: auto;
+        height: 15rem;
     }
 
     .text-container {
